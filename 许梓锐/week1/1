@@ -1,1 +1,132 @@
 
+在周四和周五主要学习了python黑马程序员上前五十章的内容，周六和周日主要下载VScode进行实践。
+  以下为实践内容：
+  #money = 50
+#print("money =",money)
+#money += 10
+#print(f"{money}")
+#name = "nihao"
+#name_type=type(name)
+#print(name_type)
+#float_num= float(11)
+#print(type(float_num),float_num)
+#float_str=str(11.789)
+#print(type(float_str))
+#str_int=int(1223)
+#print(type(str_int),str_int)
+#name="\"h\""
+#name = input()
+#price = 111
+#num = 12345
+#float_num=float(1.2)
+#print(f"name{name},price")
+#bool_1=True
+#bool_2=False
+#num1=10
+#num2=20
+#print("leishiwei%s"%(num1==num2))
+#int_age = int(input())
+#if int_age >= 18:
+#    print("Good")
+#else:
+#    print("bad")
+#int_age=int(input("huanying,nianling,"))
+#int_vip_level=int(input("duoshao"))
+
+#if int_age >=18:
+   # print("free")
+#elif int_vip_level > 3:
+    #print("free")
+#else:
+    #print("happy")
+#import random
+#first = random.randint(1,100)
+"""int_num=int(input("请输入第一次猜想的数字："))
+if int_num!=first:
+    int_num2=int(input("请输入第二次猜想的数字："))
+    if int_num2!=first:
+        print("ERROR")
+    else:
+        print("lucky")
+else:
+    print("Good!")
+
+"""
+
+"""i = 0
+while i < 100:
+    print("beautiful")
+    i+=1"""
+'''i=1
+int_sum = 0
+while i<=100:
+    int_sum+=i
+    i+=1
+print(f"sum={int_sum}")
+'''
+"""import random
+int_num=int(random.randint(1,10))
+count=0
+flag =True
+while flag:
+    int_first=int(input())
+ 
+    count += 1
+    if int_first!=int_num:
+       print("再来一次")
+       
+    else:
+        print(f"好厉害宝宝，你共用了{count}次")
+        flag = False
+"""
+'''print("hello\t world")
+print("worldtt\t math")'''
+'''i=1
+
+while  i <= 9:
+
+    j=1
+    while j <= i:
+        print(f"{j}*{i}={i*j}\t",end='')
+        j+=1
+
+    i+=1
+        
+        
+    print()'''
+'''name = "ighil"
+for x in name:
+    print(f"{x}")'''
+'''name = 'aabanamraefraa'
+count = 0
+for x in name:
+    if x == 'a':
+        count +=1
+print(f"{count}")'''
+'''for x in range(1,10,2):
+    print(f"{x}")'''
+'''for x in range(1,10):
+    for j in range(1,x+1):
+        print(f"{j}*{x}={j*x}\t",end='')
+    print()'''
+'''for x in range(1,10):
+    for jnt in range(1,x+1):
+        print(f"{j}*{x}={j*x}\t",end='') 
+        break
+        print("1")
+    print()'''
+money = 10000
+name=range(1,21)
+for x in name:
+    import random
+    int_num=int(random.randint(1,10))
+    if int_num <= 5:
+       print(f"{x}号，绩点为{int_num}，不发福利")
+       continue
+    if money >= 1000:
+        money -= 1000
+        print(f"{x}号，绩点为{int_num}int_num，发福利1000元,余额{money}")
+    else:
+        print(f"余额不足，当期余额{money},不足以发工资")  
+        break
+
