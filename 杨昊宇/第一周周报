@@ -1,0 +1,73 @@
+1 学习字典的使用
+创建字典
+# my_dictionary = {
+#     '张学友': 100,
+#     '周杰伦': 77,
+#     '周杰1': 66
+# }
+# #----------改变字典当中的值--------
+# my_dictionary['周杰1'] = 77
+# print(my_dictionary)
+# #----------添加字典当中的值-------
+# my_dictionary['周1'] = 66
+# print(my_dictionary)
+# #----------删除字典当中的值---------------------
+# #--------方法一，用pop取出值，并且在字典中把值删去---------
+# x = my_dictionary.pop('张学友')
+# print(x)
+# print(my_dictionary)
+# #---------清空元素
+# # my_dictionary.clear()
+# # print(f"字典的元素被清空了{my_dictionary}")
+# #--------获取全部的keys
+# keys = my_dictionary.keys()
+# print(keys)
+# #-----------遍历的方式1
+# for key in keys:
+#     print(f"字典的键是{key}")
+#     print(f"字典{key}所对应的value是{my_dictionary[key]}")
+# #-----------遍历的方式2
+# for key in my_dictionary:
+#     print(f"字典{key}所对应的value是{my_dictionary[key]}")
+#
+# for i in my_dictionary:
+#     print(f"字典{i}所对应的value是{my_dictionary[i]}")
+# #-------------由上面两组对照观察得出，i,name 等变量，都默认在key当中遍历
+#
+# #--------------下面是统计字典元素数量
+# num = len(my_dictionary)
+# print(f'我的字典数量中的元素数量是{num}')
+from numbers import Number
+x1 = input()
+x1 = list(x1)
+x2 = list(input())
+
+# 把输入的字符串转化为列表
+
+# 创建一个包含字符串的列表
+x3 = ['0', 'a']
+
+# 使用 map() 函数和 lambda 表达式进行转换
+x3 = list(map(lambda x: int(x) if x == '0' else a, x3))
+
+
+
+
+x3= [0,1,2,3,4,5,6,7,8,9]
+
+# 使用字典推导式创建字典
+age_dict = {name: age for name, age in zip(x3, x1)}
+
+for i in x2:# i 是x2 中的元素,这里取出的每一个i都是字符串
+    i = int(i)
+    print(i)
+    from numbers import Number
+
+
+
+
+    if isinstance(i, Number):# 如果i是数字
+
+        i = age_dict[i]# i 就是字典中对应的值
+        print(i)#这一步检验是ok的
+print(x2)
