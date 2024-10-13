@@ -1,0 +1,14 @@
+python基本格式
+运算符以及运算顺序
+if条件判断，配合elif，else，可多层嵌套
+int（）float（）str（）等修改变量的性质，改为整数，小数或字符串。
+如何加注释  #单独加一行   ///多行注释///    选中一段 shift+/ 此段全注释
+转义字符\
+print内可用+连接多个内容 a = '1'  print("number"+ a)输出为 number1
+交互模式与命令行模式的基本区别
+inport调用函数库。example：
+import math
+result1 = math.log2(8)
+print(result1)   输出为3
+#但目前对于具体有哪些函数库以及这个函数库下包含哪些具体函数还不太清楚
+缩进对于python非常重要，注意缩进。
